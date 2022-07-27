@@ -34,7 +34,7 @@ console.log(parsedInt, typeof parsedInt) // -> 11, 'number'
     const runScript = () => {
         const heroesInTsukiji = "7"
         const heroesInShinjuku = "2"
-        document.getElementById("heroes").textContent = heroesInTsukiji + heroesInShinjuku
+        document.getElementById("heroes").textContent = parseInt(heroesInTsukiji) + parseInt(heroesInShinjuku)
     };
 
 </script>
