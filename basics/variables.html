@@ -13,7 +13,7 @@
 <pre>
 variables can be declared with 'const'
 <code class="language-javascript">
-const x = 'hello';
+let x = 'hello';
 console.log(x)
 // -> 'hello'
 // 'const' can't be changed though
@@ -47,7 +47,7 @@ use const wherever possible, there rarely is a need to reassign stuff, reassigni
         const villain = "Dr. Evil"
         let hero = "you"
         // evil reassign magic
-        hero = villain
+        // hero = villain
         render("heroId", hero)
         render("villainId", villain)
 
